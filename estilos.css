@@ -1,0 +1,310 @@
+body {
+    margin: auto;
+    background: #B8CBDB;
+    max-width: 1000px;
+}
+
+nav {
+    position: fixed;
+    background-color: #B8CBDB;
+    width: 100%;
+    z-index: 1;
+}
+
+nav li {
+    display: inline-block;
+    font-family: "Amaranth Regular";
+    color: #FFFDEC;
+    font-size: 20px;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+nav li:hover {
+    background-color: #EFB14D;
+}
+
+.coluna {
+    width: 90%;
+    /* este é o elemento básico de estrutura do site. Com isto os elementos ficam arrumados dentro de uma estrutura de 2 colunas */
+    padding: 0 5%;
+    float: left;
+    /* garante que as duas colunas ficam junta uma da outra */
+    overflow: hidden;
+    /* evita que elementos saiam de fora do tamanho da coluna */
+}
+
+h1 {
+    font-family: "Amaranth Regular";
+    color: #FFFDEC;
+    font-size: 130px;
+    line-height: 20px;
+}
+
+.luana {
+    padding-left: 522px;
+    padding-top: 100px;
+}
+
+.silva {
+    padding-left: 651px;
+}
+
+
+.fotocapa {
+    background-image: url("fotocapa.JPG");
+    /* como o sol fica atrás, coloquei-o como imagem de fundo */
+    background-size: 800px;
+    background-repeat: no-repeat;
+    height: 650px;
+
+
+
+}
+
+.coluna2 {
+    width: 40%;
+    /* este é o elemento básico de estrutura do site. Com isto os elementos ficam arrumados dentro de uma estrutura de 2 colunas */
+    padding: 0 5%;
+    float: left;
+    /* garante que as duas colunas ficam junta uma da outra */
+    overflow: hidden;
+    /* evita que elementos saiam de fora do tamanho da coluna */
+}
+
+h2 {
+    font-family: "Amaranth Regular";
+    color: #FFFDEC;
+    font-size: 50px;
+    line-height: 20px;
+    text-align: center;
+
+
+}
+
+.titulo {
+    padding-top: 20px;
+}
+
+
+
+
+.texto_sobremim {
+    font-family: "Verdana Pro";
+    color: #FFFDEC;
+    font-size: 14px;
+    text-align: left;
+    padding: 0px;
+    40px;
+    0px;
+    40px;
+
+
+}
+
+b {
+    color: #EFB14D;
+    /* não é preciso mais do que isto para dar cor aos bolds */
+}
+
+.fotolu {
+    width: 60%;
+    position: relative;
+    /* posiciona a imagem */
+    top: 20px;
+    left: 10px;
+
+
+}
+
+.pordosol {
+    background-image: url("pordosol.png");
+    /* como o sol fica atrás, coloquei-o como imagem de fundo */
+    background-size: 450px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    height: 600px;
+
+
+
+}
+
+.interesses {
+    font-family: "Verdana Pro";
+    font-size: 14px;
+    text-align: center;
+    color: #EFB14D;
+    padding-top: 20px;
+}
+
+.certificados img {
+    max-width: 200px;
+    padding-top: 40px;
+}
+
+.imagem_2 {
+    position: relative;
+    /* posiciona a 2.ª imagem em relação à primeira */
+    top: -250px;
+    left: 250px;
+    max-width: 200px;
+}
+
+.formaçao {
+    padding-top: 50px;
+}
+
+.produto {
+    padding-top: 100px;
+}
+
+.cadeira1 {
+    width: 67%;
+    position: relative;
+    /* posiciona a imagem */
+    top: 20px;
+    left: 0px;
+}
+
+.texto_cadeira {
+    font-family: "Verdana Pro";
+    color: #FFFDEC;
+    font-size: 14px;
+    text-align: left;
+    padding-left: 100px;
+
+
+}
+
+
+.texto_logo {
+    font-family: "Verdana Pro";
+    color: #FFFDEC;
+    font-size: 14px;
+    text-align: left;
+    padding-right: 100px;
+    padding-top: 60px;
+}
+
+.logotipo {
+    padding-top: 80px;
+}
+
+.logo1 {
+
+    max-width: 400px;
+
+    
+}
+
+.coluna3 {
+    height: 80%;
+    width: 40%;
+    /* este é o elemento básico de estrutura do site. Com isto os elementos ficam arrumados dentro de uma estrutura de 2 colunas */
+    padding: 0 5%;
+    float: left;
+    /* garante que as duas colunas ficam junta uma da outra */
+    overflow: hidden;
+    /* evita que elementos saiam de fora do tamanho da coluna */
+}
+
+.fotografia {
+    padding-top: 400px;
+}
+
+.texto_foto {
+    font-family: "Verdana Pro";
+    color: #FFFDEC;
+    font-size: 14px;
+    text-align: center;
+    padding-right: 100px;
+    padding-left: 100px;
+
+}
+
+.foto1 {
+
+    max-width: 150px;
+    padding-left: 100px;
+}
+
+.foto2 {
+
+    max-width: 158px;
+    padding-left: 60px;
+}
+
+.foto3 {
+
+    max-width: 150px;
+    padding-left: 60px;
+}
+
+.foto4 {
+
+    max-width: 150px;
+    padding-left: 60px;
+
+}
+
+
+
+
+.rede {
+
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-left: 185px;
+    margin-top: 70px;
+    border-radius: 50%
+}
+
+.rede:hover {
+    cursor: pointer;
+
+}
+
+.rede#facebook {
+    background-color: #EFB14D
+}
+
+.iconefb {
+    margin: 0px auto;
+    padding: 25px;
+    width: 53%;
+}
+
+.rede#instagram {
+    background-color: #EFB14D
+}
+
+.iconeinsta {
+    margin: 0px auto;
+    padding: 25px;
+    width: 53%;
+}
+
+.rede#gmail {
+    background-color: #EFB14D
+}
+
+.iconemail {
+    margin: 0px auto;
+    padding: 20px;
+    width: 58%;
+}
+.fotocontactos{
+    background-image: url("fotocontactos.JPG");
+    /* como o sol fica atrás, coloquei-o como imagem de fundo */
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+
+    height: 350px;}
